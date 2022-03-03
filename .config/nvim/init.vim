@@ -2,6 +2,12 @@ call plug#begin()
 Plug 'sainnhe/sonokai'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
+Plug 'sheerun/vim-polyglot'
+Plug 'preservim/nerdtree'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+" Plug 'dense-analysis/ale'
 call plug#end()
 
 
@@ -56,7 +62,11 @@ let g:airline_theme = 'sonokai'
 
 
 " Remaps """""""""
-" remaps aqui
+" Shortcuts for split navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 
 
@@ -68,3 +78,20 @@ let g:airline_theme = 'sonokai'
 " AirLine """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+
+
+
+" NerdTree """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nmap <C-a> :NERDTreeToggle<CR>
+
+
+
+" ALE """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" let g:ale_linters = {
+" \}
+
+" let g:ale_fixers = {
+" \   '*': ['trim_whitespace'],
+" \}
+
+" let g:ale_fix_on_save = 1

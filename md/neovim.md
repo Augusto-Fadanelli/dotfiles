@@ -17,3 +17,15 @@
     ````
     :PlugInstall
     ````
+  * Saia e abra novamente e rode o comando
+    ````
+    :CocConfig
+    ````
+    * Adicione isso no arquivo e salve
+      ````
+      {
+          "languageserver": {
+
+          }
+      }
+      ````

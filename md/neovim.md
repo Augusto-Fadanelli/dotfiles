@@ -40,3 +40,36 @@
     
       }
       ````
+
+### Teclas de atalho
+  * Help
+    ````
+    :h comando
+    ````
+  * NERDTree `Ctr+a`
+    * Help `?`
+    * Abrir split vertical de arquivo `s`
+    * Abrir split horizontal de arquivo `i`
+  * Navegar entre os splits
+    * Esquerda `Ctr+h`
+    * Baixo `Ctr+j`
+    * Cima `Ctr+k`
+    * Direita `Ctr+l` 
+  * Autocomplete 
+    * Cima `Ctr+p` 
+    * Baixo `Ctr+n` 
+  * Telescope
+    * Buscar arquivo `\ff`
+    * Buscar palavra dentro de um arquivo `\fg`
+  * Remaps
+    * Criar nova tab `te`
+    * Navegar entre tabs `gt`
+    * Navegar entre buffers
+      * Esquerda `tr`
+      * Direita `ty
+    * Fecha buffer `td`
+    * quit :q `tt`
+    * Criar splits
+      * Horizontal `th`
+      * Vertical `tv`
+    * Rodar comandos de terminal dentro do vim `tc` ou `:!comando`

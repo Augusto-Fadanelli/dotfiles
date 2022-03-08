@@ -7,7 +7,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-" Plug 'dense-analysis/ale'
+Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs'
@@ -120,14 +120,18 @@ nmap <C-a> :NERDTreeToggle<CR>
 
 
 " ALE """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" let g:ale_linters = {
-" \}
+let g:ale_linters = {
+\   'cpp': [],
+\   'c': [],
+\}
 
-" let g:ale_fixers = {
-" \   '*': ['trim_whitespace'],
-" \}
+let g:ale_fixers = {
+\   '*': ['trim_whitespace'],
+\   'cpp': ['clang-format'],
+\   'c': ['clang-format'],
+\}
 
-" let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 1
 
 
 
@@ -136,12 +140,12 @@ nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-    
-    
+
+
 
 " COC (Conquer of Completion) """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-let g:coc_global_extensions = [ 'coc-snippets', ]
+let g:coc_global_extensions = [ 'coc-snippets', 'coc-clangd']
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim

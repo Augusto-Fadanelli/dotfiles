@@ -14,6 +14,8 @@
 ### Configuração
   * Instale as [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts#option-3-install-script)
 
+  * Instale o [Plug](https://github.com/junegunn/vim-plug#unix-linux)
+  
   * Abra o arquivo `~/.config/nvim/init.vim` com o `nvim` e rode o comando
     ````
     :PlugInstall

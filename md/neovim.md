@@ -27,19 +27,11 @@
           "languageserver": {
 
           },
-
-          "explorer.width": 30,
-          "explorer.icon.enableNerdfont": true,
-          "explorer.previewAction.onHover": false,
-          "explorer.keyMappings.global": {
-              "<cr>": ["expandable?", "expand", "open"],
-              "v": "open:vsplit",
-              "h": "open:split"
-          },
-          "explorer.git.enable": true
     
       }
       ````
+### Comandos vim
+  * [Começando com VIM: O Editor de Texto](https://woliveiras.com.br/posts/Comecando-com-o-editor-de-texto-VIM/)
 
 ### Teclas de atalho
   * Help

@@ -2,6 +2,7 @@
 
 ### Links úteis:
   * [Tutorial](https://www.manualdocodigo.com.br/vim-basico/)
+  * [Tutorial C/C++](https://www.manualdocodigo.com.br/vim-c-cpp/)
 
 ### Instalação
   * Arch Linux

@@ -6,7 +6,7 @@
 ### Instalação
   * Arch Linux
     ````
-    $ sudo pacman -S python python-pip nodejs neovim ripgrep fd
+    $ sudo pacman -S python python-pip nodejs neovim ripgrep fd npm yarn clang
     $ pip install pynvim
     ````
 

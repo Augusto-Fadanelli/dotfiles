@@ -8,6 +8,15 @@
   * Arch Linux
     ````
     $ sudo pacman -S python python-pip nodejs neovim ripgrep fd npm yarn clang
+    ````
+    
+  * Ubuntu
+    ````
+    $ sudo apt install python3 python3-pip nodejs neovim ripgrep fd-find npm yarn clang
+    ````
+    
+  * pip (All)
+    ````
     $ pip install pynvim
     ````
 

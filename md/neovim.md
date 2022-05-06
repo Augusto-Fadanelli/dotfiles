@@ -12,8 +12,17 @@
     
   * Ubuntu
     ````
-    $ sudo apt install python3 python3-pip nodejs neovim ripgrep fd-find npm yarn clang
+    $ sudo apt install python3 python3-pip neovim ripgrep fd-find npm yarn clang
     ````
+    * Versão atualizada do `nodejs`
+      ````
+      $ cd ~
+      $ curl -sL https://deb.nodesource.com/setup_14.x -o nodesource_setup.sh
+      $ sudo bash nodesource_setup.sh
+      $ sudo apt update
+      $ sudo apt install nodejs
+      $ node --version
+      ````
     
   * pip (All)
     ````

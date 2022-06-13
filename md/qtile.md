@@ -10,7 +10,7 @@
     $ sudo pacman -S xorg xorg-server xorg-xinit xorg-apps
     $ sudo pacman -S sddm
     $ sudo systemctl enable sddm
-    $ sudo pacman -S qtile alacritty firefox feh imagemagick
+    $ sudo pacman -S qtile alacritty firefox feh imagemagick alsa alsa-mixer ttf-hack
     ````
 
   * Configurar teclado. Editar/Criar arquivo `/etc/X11/xorg.conf.d/10-keyboard.conf`:

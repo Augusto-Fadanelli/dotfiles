@@ -20,4 +20,24 @@
       ````
 
 ### Configuração
-
+  * Syntax highlights e Tree-sitters
+    ````
+    :TSInstall cpp
+    :TSInstall dockerfile
+    :TSInstall gdscript
+    :TSInstall html
+    :TSInstall http
+    :TSInstall jsdoc
+    :TSInstall json5
+    :TSInstall kotlin
+    :TSInstall latex
+    :TSInstall make
+    :TSInstall markdown
+    :TSInstall php
+    :TSInstall phpdoc
+    :TSInstall r
+    :TSInstall regex
+    :TSInstall ruby
+    :TSInstall toml
+    :TSInstall vim
+    ````
